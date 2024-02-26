@@ -5,7 +5,6 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    flex: 1;
 }
 
 a {
@@ -38,10 +37,9 @@ ul {
 .hero {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    
 }
 
 .left {
@@ -138,4 +136,57 @@ ul {
 .thor {
     display: flex;
     justify-content: flex-end;
+}
+
+.callblock {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.call {
+    width: 800px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+
+.callleft {
+    display: flex;
+    flex-direction: column;
+}
+
+.action {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.click {
+    color: #ffffff;
+}
+
+.signup2 {
+    color: #ffffff;
+    border: 1px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 5px;
+    background-color: #3882f6;
+    padding: 5px 15px 5px 15px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
